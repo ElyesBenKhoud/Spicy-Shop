@@ -1,25 +1,25 @@
 import React from "react";
 import logo from "../images/logo.png";
+import Sidebar from "./Sidebar";
 const Navbar = () => {
+  const ShowSidebar = () => {
+    const menuWrap = document.querySelector(".bm-menu-wrap");
+    if (menuWrap) {
+      menuWrap.setAttribute("aria-hidden", true);
+    }
+  };
+
   return (
     <nav className="navbar black navbar-expand-lg fixed-top navbar-dark header">
+      <Sidebar />
       <div className="container">
         <a className="navbar-brand" href=" ">
           <img src={logo} className="d-inline-block align-middle" alt="" />
           Andreia Spicy online Shop
         </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <button className="navbar-toggler" type="button" onClick={ShowSidebar}>
           <span className="navbar-toggler-icon"></span>
         </button>
-
         <div
           className="collapse navbar-collapse d-sm-0 d-md-0"
           id="navbarSupportedContent"

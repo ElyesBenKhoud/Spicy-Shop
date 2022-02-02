@@ -1,15 +1,11 @@
 import React from "react";
-
+import logo from "../images/logo.png";
 const Navbar = () => {
   return (
     <nav className="navbar black navbar-expand-lg fixed-top navbar-dark header">
       <div className="container">
         <a className="navbar-brand" href=" ">
-          <img
-            src="../images/logo.png"
-            className="d-inline-block align-middle"
-            alt=""
-          />
+          <img src={logo} className="d-inline-block align-middle" alt="" />
           Andreia Spicy online Shop
         </a>
         <button

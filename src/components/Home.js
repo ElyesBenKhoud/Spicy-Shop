@@ -1,9 +1,9 @@
 import React from "react";
-
+import knife from "../images/ico/fork-and-knife-in-cross.png";
 const Home = () => {
   return (
     <section id="home">
-      <div className="single-slide bg-overlay-5 clr-wht fixed">
+      <div className="single-slide bg-overlay-5 clr-wht">
         <div className="table">
           <div className="table-cell">
             <div className="container">
@@ -17,10 +17,7 @@ const Home = () => {
                   <h1>For cooking</h1>
                   <br />
                   <a href="#about" className="ancor-ico">
-                    <img
-                      src="../images/ico/fork-and-knife-in-cross.png"
-                      alt=""
-                    />
+                    <img src={knife} alt="" />
                   </a>
                 </div>
               </div>

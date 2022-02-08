@@ -10,8 +10,8 @@
 .burger {
   width: 2rem;
   height: 0.25rem;
-  border-radius: 10px;
-  background-color: rgb(255, 240, 240);
+  border-radius: 20px;
+  background-color: rgb(245, 244, 244);
   transform-origin: 1px;
   transition: all 0.3s linear;
 }

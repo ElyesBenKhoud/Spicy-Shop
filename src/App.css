@@ -589,8 +589,8 @@ h6 {
 }
 
 .navbar-brand {
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 40px;
+  line-height: 40px;
   padding: 0;
   margin: 0;
   text-transform: none;
@@ -1454,4 +1454,13 @@ footer a:hover {
 
 footer a:hover {
   color: #990000;
+}
+
+@media (max-width: 767px) {
+  .menu-hamburger {
+    display: fixed;
+    padding-top: 10px;
+    margin-left: 10px;
+    z-index: 10;
+  }
 }

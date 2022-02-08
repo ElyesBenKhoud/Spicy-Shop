@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../images/logo.png";
+import Hamburger from "./Hamburger/Hamburger";
 const Navbar = () => {
   return (
     <nav className="navbar black navbar-expand-lg fixed-top navbar-dark header">
@@ -8,9 +9,9 @@ const Navbar = () => {
           <img src={logo} className="d-inline-block align-middle" alt="" />
           Andreia Spicy online Shop
         </a>
-        <button className="navbar-toggler" type="button">
+        {/* <button className="navbar-toggler" type="button">
           <span className="navbar-toggler-icon"></span>
-        </button>
+        </button> */}
         <div
           className="collapse navbar-collapse d-sm-0 d-md-0"
           id="navbarSupportedContent"
@@ -48,6 +49,9 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
+          <div className="hamburger">
+            <Hamburger />
+          </div>
         </div>
       </div>
     </nav>

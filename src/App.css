@@ -1456,11 +1456,15 @@ footer a:hover {
   color: #990000;
 }
 
+.hamburger {
+  display: none;
+  z-index: 6;
+}
 @media (max-width: 767px) {
-  .menu-hamburger {
+  .hamburger {
     display: fixed;
     padding-top: 10px;
     margin-left: 10px;
-    z-index: 10;
+    z-index: 6;
   }
 }

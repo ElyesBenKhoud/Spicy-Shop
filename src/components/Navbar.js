@@ -3,7 +3,7 @@ import logo from "../images/logo.png";
 import Hamburger from "./Hamburger/Hamburger";
 import "../App.css";
 const Navbar = () => {
-  const [hamburgerOpen, setHamburgerOpen] = useState(false);
+  const [hamburgerOpen, setHamburgerOpen] = useState(true);
 
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen);

@@ -1012,9 +1012,6 @@ button:focus {
   display: inline-block;
 }
 
-.food-gallery .gallery-wraper {
-}
-
 .food-gallery a {
   cursor: crosshair;
 }
@@ -1223,7 +1220,7 @@ button:focus {
 .partner {
   width: 200px;
   height: 150px;
-  float: left;
+  /* float: left; */
   display: inline-block;
   background-size: contain;
   background-repeat: no-repeat;

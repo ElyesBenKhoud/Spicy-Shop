@@ -8,6 +8,7 @@ const Hamburger = ({ isOpen }) => {
         <div className="burger burger2" />
         <div className="burger burger3" />
       </div>
+      {/* styled Compo */}
       <style jsx>{`
         .hamburger {
           width: 2rem;
